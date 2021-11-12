@@ -1,0 +1,76 @@
+{
+    "name": "GruaControls",
+    "maps": [
+        {
+            "name": "Land",
+            "id": "50949077-9d11-4777-9fa1-f418bca9fdf0",
+            "actions": [
+                {
+                    "name": "RotateR",
+                    "type": "Button",
+                    "id": "a6b92b5d-781f-41f0-96cc-a8835ea91c58",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RotateL",
+                    "type": "Button",
+                    "id": "7f7e9bfd-fe2c-4596-942f-4f41f16d8f5a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e4abff03-a9a9-43a6-9c82-6937076de119",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateR",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "70216392-bba5-4e56-b4ba-09213dfa23d7",
+                    "path": "<Gamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateR",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ffa90b5e-feaa-48f4-b7a0-5fac21d23977",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateL",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9a765f6a-0d00-4226-b9be-42f5f31c6a20",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateL",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
