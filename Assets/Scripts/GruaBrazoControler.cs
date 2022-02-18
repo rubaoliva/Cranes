@@ -34,11 +34,11 @@ public class GruaBrazoControler : MonoBehaviour
         float rotateR = gruaBrazoControls.Land.RotateR.ReadValue<float>();
         float rotateL = gruaBrazoControls.Land.RotateL.ReadValue<float>();
         
-        if (rotateR > 0)
+        if (rotateR > 0)                                                                                        //Rota la grua en el sentido de las agujas del reloj
         {
             transform.Rotate(xAngle: 0, yAngle: (rotateR * speed) * Time.deltaTime, zAngle: 0);
         }
-        else if ((rotateL > 0))
+        else if ((rotateL > 0))                                                                                 //Rota la grua en el sentido contrario de las agujas del reloj
         {
             transform.Rotate(xAngle: 0, yAngle: (-rotateL * speed) * Time.deltaTime, zAngle: 0);
         }
